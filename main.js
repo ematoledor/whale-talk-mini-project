@@ -11,6 +11,7 @@ for (i = 0; i < input.length; i++) {
   for (j = 0; j < vowels.length; j++) {
     // Analyze is values are the same
     if (input[i] === vowels[j]) {
+      // Double the letter if its 'e' or 'u' and push any of the cases to new array.
       if (input[i] === 'e') {
         resultArray.push('EE');
       }
@@ -23,4 +24,5 @@ for (i = 0; i < input.length; i++) {
   }
 }
 
+// brings string togetther and turns to upper case.
 console.log(resultArray.join('').toUpperCase());
