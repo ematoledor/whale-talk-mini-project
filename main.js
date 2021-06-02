@@ -44,3 +44,5 @@ for (const item of input) {
 
 // brings string togetther and turns to upper case.
 console.log(resultArray.join('').toUpperCase());
+
+// All good
